@@ -12,7 +12,6 @@ while True:
 
     choice = input("Choose option: ")
 
-    # ADD STUDENT
     if choice == "1":
 
         name = input("Enter student name: ")
@@ -29,7 +28,6 @@ while True:
 
         print("Student added successfully")
 
-    # SHOW STUDENTS
     elif choice == "2":
 
         if len(students) == 0:
@@ -42,7 +40,6 @@ while True:
                 print("Age :", student["age"])
                 print("Grade :", student["grade"])
 
-    # SEARCH STUDENT
     elif choice == "3":
 
         search_name = input("Enter student name to search: ")
@@ -63,7 +60,6 @@ while True:
         if found == False:
             print("Student not found")
 
-    # DELETE STUDENT
     elif choice == "4":
 
         delete_name = input("Enter student name to delete: ")
@@ -84,7 +80,6 @@ while True:
         if found == False:
             print("Student not found")
 
-    # EXIT
     elif choice == "5":
 
         print("Program closed")

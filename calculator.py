@@ -1,4 +1,5 @@
 try:
+ while True:
 
     print("=== Calculator  ===")
 
